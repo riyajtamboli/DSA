@@ -9,7 +9,8 @@ public class LinearSearch {
 		}
 		return -1;
 	}
-	public static void main(String[] args) {
+	
+	public static void main(String[] args){	
 		int arr[]= {12,56,47,28,14,55};
 		IO.print("Enter key to search : ");
 		int key = Integer.parseInt(IO.readln());
@@ -19,7 +20,6 @@ public class LinearSearch {
 			}else {
 				IO.println("Key is found at : "+index);
 			}
-
 	}
 }
 
