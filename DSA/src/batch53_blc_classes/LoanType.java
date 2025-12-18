@@ -1,7 +1,6 @@
 package batch53_blc_classes;
 
 public class LoanType {
-		
 		public static OfferedLoan getLoanType(LoanApplicant la) {
 				OfferedLoan ol = null;
 				if(la.getCivilScore()>900) {
