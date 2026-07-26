@@ -1,4 +1,5 @@
 package Array;
+
 public class _07ArraySortedOrNot {
     void main(){
         int arr [] = {1,2,3,4,5};
