@@ -2,7 +2,7 @@ package _04_Recursion;
 
 public class _05FibSeries {
     void main(){
-        int n = 10;
+    
         for(int i=0; i<=10; i++){
             System.out.print(fib(i)+" ");
         }
